@@ -187,7 +187,6 @@ void showGraph(Graph g, int mode)
                 printf("        [\n");
                 for (j = 0,num_of_vertex_printed = 0; j < g->num_vtx; j++){
                     
-                    
                     if (g->edges[i][j]){
                         
                         if (num_of_vertex_printed > 0 ) {
@@ -200,8 +199,6 @@ void showGraph(Graph g, int mode)
                         num_of_vertex_printed++;
                         
                         printf("}\n");
-                        
-                        
                     }
                     
                     
