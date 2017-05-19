@@ -96,10 +96,6 @@ int addEdge(Graph g, char *src, char *dest)
     return 1;
 }
 
-
-
-
-
 int key_of_names (Graph map,char* target){
     int found=-1;
     int i;
@@ -119,9 +115,6 @@ int addVertex(char *str, char *names[], int N)
     names[N] = strdup(str);
     return N;
 }
-
-
-
 
 int maxVertices(Graph map){
 
